@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-// შემოგვაქვს ახალი კომპონენტი
 import CartItem from "@/components/CartItem";
 
 export default function CartPage() {
