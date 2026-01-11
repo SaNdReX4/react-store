@@ -42,7 +42,7 @@ export default function ProductsPage() {
             <div className="text-yellow-400 text-xs mb-2">
               ★★★★★ <span className="text-gray-400 ml-1">{item.rating?.count} reviews</span>
             </div>
-            <p className="text-xl font-bold mt-auto">${item.price}</p>
+            <p className="text-xl font-bold text-black mt-auto">${item.price}</p>
           </div>
         </Link>
       ))}
