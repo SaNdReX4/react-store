@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import CartItem from "@/components/CartItem";
+import CartItem from "@/components/CartItem/CartItem";
 
 export default function CartPage() {
   const [cartItems, setCartItems] = useState([]);
